@@ -12,16 +12,17 @@
     data-monitor="true">
 </script>
 
-    <style>
-        @media (min-width: 600px) {
-    .didagent__fabio .didagent__fabio__container[data-enabled=true] {
-        height: 80vh;
-        max-width: 100vw;
-        max-height: 800px;
-        aspect-ratio: 3 / 1;
-    }
-}
-    </style>
+    <script>
+        window.addEventListener('load', function() {
+            var element = document.querySelector('.didagent__fabio .didagent__fabio__container[data-enabled="true"]');
+            if (element) {
+                element.style.height = '80vh';
+                element.style.maxWidth = '100vw';
+                element.style.maxHeight = '800px';
+                element.style.aspectRatio = '3 / 1';
+            }
+        });
+    </script
     
 </body>
 </html>
