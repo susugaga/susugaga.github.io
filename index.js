@@ -68,7 +68,7 @@ width:32px;height:32px;border-radius:100%;background-color:var(--color);display:
     transition:height .2s ease-in-out,opacity .2s ease-in-out;position:absolute;bottom:0;border-radius:16px}\
 \
 @media (orientation: portrait) {\
-.didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:100vw;height:100vh;\
+.didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:96vw;height:96vh;\
     bottom:0;left:0}}\
 \
 .didagent__fabio .didagent__fabio__container .didagent__close__button{display:-webkit-box;display:-ms-flexbox;display:flex}\
