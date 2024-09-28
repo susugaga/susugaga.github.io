@@ -41,7 +41,6 @@
   }
 }
 \
-/* If the viewport is very tall but not very wide */
 @media (aspect-ratio < 9 / 16) {\
 .didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:95vw;height:auto;\
     max-height:95vh;max-width:95vw;bottom:0;left:0}}\
