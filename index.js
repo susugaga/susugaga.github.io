@@ -34,7 +34,7 @@
 .didagent__fabio .didagent__fabio__container{overflow:hidden;-webkit-transition:height .2s ease-in-out,opacity .2s ease-in-out;\
     transition:height .2s ease-in-out,opacity .2s ease-in-out;position:absolute;bottom:0;border-radius:16px}\
 \
-@media (aspect-ratio < 9 / 16) {\
+@media (orientation: portrait) {\
 .didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:95vw;height:auto;\
     max-height:95vh;max-width:95vw;bottom:0;left:0}}\
 \
@@ -44,11 +44,11 @@
 \
 .didagent__fabio .didagent__fabio__container[data-enabled=true]{opacity:1;pointer-events:auto;z-index:100}\
 \
-@media (aspect-ratio < 9 / 16) {\
+@media (orientation: portrait) {\
 .didagent__fabio .didagent__fabio__container[data-enabled=true]{position:fixed;border-radius:0;width:95vh;height:auto;\
     max-height:95vh;max-width:95vw;bottom:0;left:0}}\
 \
-@media (aspect-ratio > 16 / 9) {\
+@media (orientation: landscape) {\
 .didagent__fabio .didagent__fabio__container[data-enabled=true]{height:95vh;aspect-ratio:4 / 3}}\
 \
 @media (min-width: 1280px){\
