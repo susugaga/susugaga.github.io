@@ -41,9 +41,9 @@ width:32px;height:32px;border-radius:100%;background-color:var(--color);display:
     ease-in-out,width .6s ease-in-out,height .6s ease-in-out;aspect-ratio:.6s ease-in-out;z-index:99999;isolation:isolate;bottom:0px}\
 .didagent__fabio[data-enabled=false]{width:240px}\
 .didagent__fabio[data-enabled=true]{width:240px}\
-.didagent__fabio[data-position=left]{left:2%, bottom:2%}\
-.didagent__fabio[data-position=right][data-enabled=false]{right:2%, bottom:2%}\
-.didagent__fabio[data-position=right][data-enabled=true]{right:2%, bottom:2%}\
+.didagent__fabio[data-position=left]{left:2%; bottom:2%}\
+.didagent__fabio[data-position=right][data-enabled=false]{right:2%; bottom:2%}\
+.didagent__fabio[data-position=right][data-enabled=true]{right:2%; bottom:2%}\
 \
 @media (max-height: 550px){\
 .didagent__fabio{display:none}}\
