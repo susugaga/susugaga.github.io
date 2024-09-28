@@ -34,13 +34,6 @@
 .didagent__fabio .didagent__fabio__container{overflow:hidden;-webkit-transition:height .2s ease-in-out,opacity .2s ease-in-out;\
     transition:height .2s ease-in-out,opacity .2s ease-in-out;position:absolute;bottom:0;border-radius:16px}\
 \
-@media (aspect-ratio > 16 / 9) {
-  iframe.youtube {
-    width: auto;
-    height: 100vh;
-  }
-}
-\
 @media (aspect-ratio < 9 / 16) {\
 .didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:95vw;height:auto;\
     max-height:95vh;max-width:95vw;bottom:0;left:0}}\
