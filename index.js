@@ -72,7 +72,7 @@ width:32px;height:32px;border-radius:100%;background-color:var(--color);display:
 \
 @media (orientation: portrait) {\
 .didagent__fabio .didagent__fabio__container{position:fixed;border-radius:0;width:96vw;height:96vh;\
-    bottom:0;left:0}}\
+    left:2%; bottom:2%}}\
 \
 .didagent__fabio .didagent__fabio__container .didagent__close__button{display:-webkit-box;display:-ms-flexbox;display:flex}\
 .didagent__fabio .didagent__fabio__container[data-position=left]{left:0}\
@@ -82,7 +82,7 @@ width:32px;height:32px;border-radius:100%;background-color:var(--color);display:
 \
 @media (orientation: portrait) {\
 .didagent__fabio .didagent__fabio__container[data-enabled=true]{position:fixed;border-radius:0;width:96vw;height:96vh;\
-    bottom:0;left:0}}\
+    left:2%; bottom:2%}}\
 \
 @media (orientation: landscape) {\
 .didagent__fabio .didagent__fabio__container[data-enabled=true]{width:96vw;height:96vh;aspect-ratio:4 / 3}}\
